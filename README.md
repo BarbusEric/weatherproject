@@ -7,7 +7,7 @@ This project will show current weather and a 5 day weather.
 
 The project is deployed on https://weather-barbuseric.netlify.app/
 
-### Main
+## Main
 
     * Used [Current weather data](https://openweathermap.org/current) API to display current weather info in 6 cities.
     * Used [5 day weather forecast](https://openweathermap.org/forecast5) API to display 5 day weather forecast.
