@@ -10,7 +10,6 @@ function displayWeatherForecast(city) {
   fetch(forecastEndpoint)
     .then((response) => response.json())
     .then((data) => {
-      // console.log(data);
       // Din datele venite, ne intereseaza doar list, care e un array.
       const { list } = data;
 

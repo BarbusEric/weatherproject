@@ -6,7 +6,6 @@ function displayCurrentWeather(city) {
   fetch(currentWeatherEndpoint)
     .then((response) => response.json())
     .then((data) => {
-      // console.log(data);
       // Extragem proprietatile care ne intereseaza.
       const { dt, main, weather, wind } = data;
       let name = data.name;
@@ -43,7 +42,5 @@ function displayCurrentWeather(city) {
           <p class="fs-5">Vânt: <strong>${windSpeed} km/h</strong></p>
         </div>
       `;
-
-      // console.log("data.name", data.name);
     });
 }
