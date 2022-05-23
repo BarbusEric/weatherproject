@@ -5,7 +5,7 @@ This project will show current weather and a 5 day weather.
 
 ## Demo
 
-The project is deployed on [Project weather](https://weather-barbuseric.netlify.app/)
+The project is deployed on [_Project weather_](https://weather-barbuseric.netlify.app/)
 
 ## Main features
 
